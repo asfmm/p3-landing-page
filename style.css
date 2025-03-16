@@ -1,0 +1,43 @@
+body{
+  font-family: 'Montserrat', 'Open Sans', 'Noto Sans', 'sans-serif';
+}
+/* Header */
+header, footer{
+  background-image: url(https://images.unsplash.com/flagged/photo-1567400358593-9e6382752ea2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  padding: 1em 1em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+  header h1{
+    font-size: 3em;
+    margin: 1em 0;
+  }
+  /* Nav */
+  nav li{
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+  }
+/* Main */
+main{
+  margin: 0.5em auto;
+  width: 90%;
+  max-width: 960px;
+}
+p{
+  margin: 1em 0em;
+}
+  h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  /* Article */
+  article{
+    margin: 1em 0;
+    padding: 1.2em 0.5em;
+    box-shadow: 1px 1px 3px 0px gray;
+  }
+/* Footer */
